@@ -1,26 +1,45 @@
 body {
   background-color: black;
   color: white;
-  font-size: 1.1em;
+  font-size: 18px;
 }
 
 .letter {
-  padding: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin: 20px;
   border: 2px solid gray;
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 16px;
   border-bottom-width: 4px;
 }
 
-p {
+.letter p {
   margin: 5px;
   padding: 0;
-  /* display: inline-block; */
+  text-align: center;
 }
-
+.sinhala {
+  font-size: 23px;
+  font-weight: 500;
+}
 .sound {
   color: gray;
+  font-family: din-round, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+h2 {
+  font-size: 22px;
+  font-family: din-round, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+main {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
