@@ -1,14 +1,20 @@
 body {
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* background-color: #220901; */
+  background-color: hsl(180, 7%, 10%);
+  /* color: #F6AA1C; */
+  color: #CBE4DE;
   font-size: 18px;
 }
 
 .letter {
-  border: 2px solid gray;
+  /* border: 2px solid #BC3908; */
+  border: 2px solid hsl(180, 7%, 32%);
   display: inline-block;
   border-radius: 16px;
   border-bottom-width: 4px;
+  /* background-color: #621708; */
+  background-color: hsl(180, 7%, 15%);
 }
 
 .letter p {
@@ -21,7 +27,8 @@ body {
   font-weight: 500;
 }
 .sound {
-  color: gray;
+  /* color: #BC3908; */
+  color: hsl(180, 7%, 32%);
   font-family: din-round, sans-serif;
 }
 
